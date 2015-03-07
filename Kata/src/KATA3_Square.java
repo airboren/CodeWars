@@ -8,13 +8,7 @@ public class KATA3_Square {
 			return false;
 		else{
 			for (long i=0;i<=n/2;i++){
-				long test=i*i;
-				
-				if (test==n){
-					System.out.println("i="+i);
-					System.out.println("i*i="+(i*i));
-					System.out.println("test="+test);
-					System.out.println("n="+n);
+				if ((i*i)==n){
 					return true;
 				}
 			}
