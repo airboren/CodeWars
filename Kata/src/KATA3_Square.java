@@ -1,5 +1,5 @@
 
-public class Square {
+public class KATA3_Square {
 
 	static int i=1;
 	

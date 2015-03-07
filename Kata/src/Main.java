@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 
 
-		Square mySquare = new Square();
+		KATA3_Square mySquare = new KATA3_Square();
 		
 		boolean test1 = mySquare.isSquare(141516004);
 		
