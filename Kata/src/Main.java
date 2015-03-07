@@ -1,11 +1,32 @@
+import java.util.*;
+
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+
+		Square mySquare = new Square();
+		
+		boolean test1 = mySquare.isSquare(141516004);
+		
+		System.out.println("test1:"+test1);
+		
+	      Random rand = new Random();
+		/*for(int i = 0; i < 100; ++i){
+	        int randomNum = rand.nextInt(0x0fff);
+	        int randomSq = randomNum * randomNum;
+	        
+	        System.out.println("value "+randomNum+":"+Square.isSquare(randomNum));
+	      }*/
+		/*for (int i=0;i<=10;i++){
+			System.out.println("test:"+i+":"+mySquare.isSquare2(i));
+		}
+		*/
 /*------------------------------------------------------------------------------------------------------------------------------------------------
  *		KATA 2: JadenCaseStrings 		
-    -----------------------------------------------------------------------------------------------
-		kata2_JadenCaseStrings jaden = new kata2_JadenCaseStrings();
+    -----------------------------------------------------------------------------------------------*/
+
+/*		kata2_JadenCaseStrings jaden = new kata2_JadenCaseStrings();
 		
 		String phrase1 = "toJadenCase doesn't return a valide JadenCase String! try again please :)";
 		String output = jaden.toJadeCase(phrase1);
@@ -13,14 +34,14 @@ public class Main {
 		
 		System.out.println("test2"+jaden.toJadeCase(null));
 		
-		System.out.println("test3"+jaden.toJadeCase(""));
-/*------------------------------------------------------------------------------------------------------------------------------------------------
-		
+		System.out.println("test3"+jaden.toJadeCase(""));*/
+
 /*------------------------------------------------------------------------------------------------------------------------------------------------
 	 * KATA 1: WORDsearch
 	 * 
 		Kata1_WordSearch Search = new Kata1_WordSearch();
-	 -----------------------------------------------------------------------------------------------
+	 -----------------------------------------------------------------------------------------------*/
+/*	
 		String[] test1 = {"lemonade", "limeade", "Yoo-Hoo", "root beer", "grapeade ", "water", "Mr. Pibb"};
 	    String[] test2 = new String[320];
 		
@@ -45,8 +66,8 @@ public class Main {
         for (int i=0;i<output3.length;i++){
         	System.out.println("output "+i+"="+output3[i]);
         }
-        
- ------------------------------------------------------------------------------------------------------------------------------------------------------*/
+   */     
+ /*------------------------------------------------------------------------------------------------------------------------------------------------------*/
         
  
 
